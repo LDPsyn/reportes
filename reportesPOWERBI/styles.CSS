@@ -1,0 +1,44 @@
+/* Estilos para el formulario de inicio de sesión */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.login-container input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Estilos para los reportes */
+#report-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Altura del 100% del viewport */
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#button-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+#report-area {
+  flex-grow: 1; /* Permite que el área de reportes crezca y ocupe todo el espacio disponible */
+  position: relative;
+}
+
+.report-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
