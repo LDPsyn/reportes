@@ -8,5 +8,5 @@ function reloadReports() {
     report2Iframe.src = report2Iframe.src;
 }
 
-// Iniciar el bucle de recarga cada 5 minutos
-setInterval(reloadReports, 300000); // 300000 milisegundos = 5 minutos
+// Iniciar el bucle de recarga cada
+setInterval(reloadReports, 600000); 
