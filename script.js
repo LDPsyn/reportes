@@ -9,4 +9,4 @@ function reloadReports() {
 }
 
 // Iniciar el bucle de recarga cada
-setInterval(reloadReports, 300000); 
+setInterval(reloadReports, 3000000); 
