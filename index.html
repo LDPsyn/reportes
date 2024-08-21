@@ -6,6 +6,7 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
         }
 
         .report-frame {
@@ -20,6 +21,7 @@
 </head>
 <body>
     <iframe id="reportFrame" class="report-frame" frameborder="0" allowFullScreen="true"></iframe>
+
     <script>
         const reportFrame = document.getElementById('reportFrame');
         const report1Url = 'https://app.powerbi.com/view?r=eyJrIjoiNzkwY2QyZTktYmY1OS00ZTMyLWFmMjEtNjZlNjljZGQwZmMyIiwidCI6IjA2MjE5YTRhLWE4MzUtNDRkNS1hZmFmLTM5MjYzNDNiZmI4OSIsImMiOjh9';
@@ -34,7 +36,10 @@
         }
 
         reportFrame.src = reportUrls[currentReportIndex];
-        setInterval(switchReport, 3000000); // 300000 milisegundos = 5 minutos
+        setInterval(switchReport, 300000); // 300,000 milisegundos = 5 minutos
+    </script>
+</body>
+</html>
     </script>
 </body>
 </html>
